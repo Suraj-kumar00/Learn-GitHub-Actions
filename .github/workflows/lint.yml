@@ -1,3 +1,4 @@
+---
 name: Lint Code Base
 
 on: [push, pull_request]
@@ -15,3 +16,4 @@ jobs:
 
       - name: Lint Code Base
         uses: github/super-linter@v4
+---
